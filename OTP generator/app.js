@@ -11,7 +11,7 @@ generate.addEventListener("click", () => {
     otp = Math.floor(Math.random() * 900000) + 100000;
     btn.innerText = otp;
 
-     clearTimeout(timeoutId);
+    clearTimeout(timeoutId);
     clearInterval(intervalId);
 
     generate.disabled = true;
