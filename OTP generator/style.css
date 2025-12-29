@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #171528, #1d1c20);
+}
+
+.container {
+    width: 320px;
+    background: #ffffff;
+    padding: 25px 20px 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 2px 15px 30px rgba(233, 229, 229, 0.15);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Generate Button */
+.generate {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background: #3a6aef;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* OTP Display Button */
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px dashed #3a6aef;
+    background: #d8e0f7;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a6aef;
+    cursor: not-allowed;
+}
+
+.copy {
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #c1d0fa;
+}
+
+input {
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px dashed #3a6aef;
+    background: #d8e0f7;
+    text-align: center;
+}
+
+.verify {
+    height: 35px;
+    width: 90px;
+    margin-left: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #c1d0fa;
+}
+
+.result {
+    color: green;
+    font-size: smaller;
+    margin: 20px;
+}
