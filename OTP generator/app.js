@@ -50,11 +50,17 @@ verify.addEventListener("click", () => {
 
       if( btn.innerText === "OTP expired"){
         printResult.innerText = "⏰opps! your time is out try again."
+        printResult.style.color  = "red";
     } else if(userOtp.value === otp.toString()) {
         printResult.innerText = "✅ OTP verified successfully!";
+        printResult.style.color = "green";
          clearInterval(intervalId);
+    } else if(userOtp.value === ""){
+        printResult.innerText = "Please enter OTP first!";
+        printResult.style.color = "#f97316";
     } else {
         printResult.innerText = "⚠️ Incorrect OTP. Please check and enter again.";
+        printResult.style.color = "red";
         clearInterval(intervalId);
     }
 });
