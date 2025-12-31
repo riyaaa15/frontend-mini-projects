@@ -1,0 +1,72 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+.container{
+    width: 310px;
+    border-radius: 30px;
+    margin: 100px auto 0;
+    background: linear-gradient(150deg, #bdd7df, #ffe7e7);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.display{
+    text-align: right;
+    font-size: 30px;
+    height: 130px;
+    width: 280px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px 11px;
+    box-shadow: 0 0 5px #908f8d;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.btns button{
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #f8f7f4;
+    border: none;
+    box-shadow: 2px 2px 5px #908f8d;
+}
+
+.btns button:hover{
+    background: #d6d5d5;
+}
+
+.btns button:active{
+    transform: scale(0.95);
+    box-shadow: inset 2px 2px 5px #908f8d;
+}
+
+
+.btns button.op{
+    background: #c5afd1;
+    font-weight: bold;
+}
+
+.btns button.op:hover{
+    background: #ad9ab7;
+}
+
+.btns button.equal{
+    background: #b2e6e9;
+    font-weight: bold;
+}
+
+.btns button.equal:hover{
+    background: #84dbdf;
+}
