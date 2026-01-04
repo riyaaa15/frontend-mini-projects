@@ -12,7 +12,8 @@ generate.addEventListener("click", () => {
         }, 1000);
         return;
     }
-    qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(qrText.value);
+    qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" 
+    + encodeURIComponent(qrText.value);
 
     imgBox.classList.add("show-img");
 })
