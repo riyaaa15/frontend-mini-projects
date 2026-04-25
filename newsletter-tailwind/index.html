@@ -6,9 +6,35 @@
     <title>Tailwind</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div>
-        <h1>Hello world</h1>
+<body class="flex justify-center items-center min-h-screen bg-gray-100">
+     <div class=" border-2 border-black rounded-md">
+    <div class="bg-gradient-to-b from-sky-500 to-indigo-500 text-white h-20 flex justify-center items-center font-semibold">
+        News you can Trust.
+    </div>
+    
+    <div class="flex items-center flex-col m-4 ">
+        <div class="font-bold mt-2">
+            <h2>Stay up to date with the Latest!</h2>
+        </div>
+        
+        <div>
+            <p>Subscribe to our newslatter for the latest news straight into yout inbox</p>
+        </div>
+        
+        <div class="flex flex-col">
+            <input class="border-2 border-md w-64 pl-16 py-1 m-2 bg-gray-200"
+            type="email" 
+            placeholder="you@example.com"
+            />
+             <button class="border-2 rounded-full border-blue-500 p-1 w-64 bg-blue-500 text-white">
+                Subscribe Now
+            </button>
+        </div>
+        
+        <div class="m-3">
+             <p>We value your privacy</p>
+        </div>
+       </div>
     </div>
 </body>
 </html>
